@@ -16,3 +16,24 @@ print(name.count("e"))# count function is used to count given character in the s
 print(name.capitalize())#  capitalize function is used  to capitalize the first character of string
 print(name.find("B"))# fing function is  used to find the word and return the index
 print(name.replace("vishwajeet","Yukthi"))# Replace function is used to find the word and replce with given word
+
+
+
+
+#OutPut
+
+# Enter Your Name.
+# Yukthi achar
+# Good Morning, Yukthi achar
+# v
+# vishwa
+# vsw
+# vishwajeet
+# vishwajeet Bharti
+# Bhart
+# 17
+# True
+# 2
+# Vishwajeet bharti
+# 11
+# Yukthi Bharti
