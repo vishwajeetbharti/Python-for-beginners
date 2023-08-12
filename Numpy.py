@@ -2,7 +2,6 @@ import numpy as ns
 #Numpy is ais a general-purpose array-processing package,
 #provides a high-performance multidimensional array object and tools for working with these arrays.
 
-
 arr = ns.array([('ab','g','t','o'),('n','e','j','u')])
 arr1 = ns.array(([1,4,6,3,7,3],[6,784,8,45,9,3]),dtype= 'double')
 a= ns.zeros((3,3))
@@ -10,16 +9,6 @@ b = ns.full((3,3), 6,dtype='int')# we can also use complex data type like (3+5i)
 randomValue= ns.random.random((3,3))
 c= arr.reshape(2,2,2)
 d= arr1.flatten()
-
-
-
-
-
-
-
-
-
-
 
 print(ns.version.version)
 print(arr)

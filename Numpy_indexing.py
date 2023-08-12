@@ -7,8 +7,6 @@ a= arr>0
 b= arr<45
 temp2 = (a&b).any()
 
-
-
 print("array Shape is ",arr.shape)
 print("Using Slice\n",temp)
 print("Using indexing ",temp1)
