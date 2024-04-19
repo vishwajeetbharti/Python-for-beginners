@@ -10,9 +10,9 @@ N = 100
 # generating random strings
 time.sleep(1)
 count=0
-while count<=200:
+while count<=399:   
     #res = ''.join(random.choices(string.ascii_letters, k=N))
-    res='enjoy your day'
+    res='HAPPYBIRTHDAYRAJNIKANT'
     pyautogui.typewrite(str(res))
     #res=''
     pyautogui.press("enter")
